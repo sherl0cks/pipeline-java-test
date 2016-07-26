@@ -6,4 +6,5 @@ developmentPipeline{
     integrationTestCommand = 'integrationTestCommand!'
     acceptanceTestCommand = 'accept!'
     buildTool = 'Maven3.3.9'
+    appRootContext = 'ejb-timer'
 }
