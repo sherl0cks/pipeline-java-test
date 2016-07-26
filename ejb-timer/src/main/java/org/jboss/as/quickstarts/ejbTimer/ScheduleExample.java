@@ -33,7 +33,7 @@ public class ScheduleExample {
     public void doWork() {
         Date currentTime = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
-        System.out.println("ScheduleExample.doWork() invoked at " + simpleDateFormat.format(currentTime));
+        System.out.println("Justin - ScheduleExample.doWork() invoked at " + simpleDateFormat.format(currentTime));
     }
 
 }
