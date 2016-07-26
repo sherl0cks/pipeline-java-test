@@ -7,4 +7,6 @@ developmentPipeline{
     acceptanceTestCommand = 'accept!'
     buildTool = 'Maven3.3.9'
     appRootContext = 'ejb-timer'
+    hostingEnv = 'holmes-playground.demo.innovation.redhat.com'
+    projectName = 'holmes-playground'
 }
