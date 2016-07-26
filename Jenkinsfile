@@ -1,5 +1,5 @@
 developmentPipeline{
-    packageCommand = 'mvn clean deploy'
+    buildCommand = 'mvn clean deploy'
     unitTestCommand = 'unitTessst'
     qualityScanCommand = 'quality command'
     integrationTestCommand = 'integrationTestCommand!'
