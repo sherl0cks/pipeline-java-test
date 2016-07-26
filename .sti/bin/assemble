@@ -75,8 +75,6 @@ fi
 copy_artifacts "deployments"
 
 echo " Veer - Custom Code"
-
-WAR_FILE_URL = "http://nexus-rhcbap.rhcloud.com/nexus/service/local/artifact/maven/redirect?g=org.jboss.quickstarts.eap&a=jboss-ejb-timer&v=LATEST&r=snapshots&p=war"
 echo ${WAR_FILE_URL}
 curl -o ${DEPLOY_DIR}/ROOT.war -O ${WAR_FILE_URL}
 
