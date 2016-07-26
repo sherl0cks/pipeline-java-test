@@ -5,4 +5,5 @@ developmentPipeline{
     qualityScanCommand = 'quality command'
     integrationTestCommand = 'integrationTestCommand!'
     acceptanceTestCommand = 'accept!'
+    buildTool = 'Maven3.3.9'
 }
