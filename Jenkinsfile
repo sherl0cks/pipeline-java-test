@@ -1,8 +1,8 @@
 developmentPipeline{
-    buildCommand = 'mvn clean deploy'
-    unitTestCommand = 'unitTessst'
+    buildCommands = ['mvn clean deploy']
+    unitTestCommand = 'mvn test'
     qualityScanCommand = 'quality command'
-    integrationTestCommand = 'integrationTestCommand!'
+    integrationTestCommand = 'mvn test -Pintegration'
     acceptanceTestCommand = 'accept!'
     buildTool = 'Maven3.3.9'
     appRootContext = 'ejb-timer'
